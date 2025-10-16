@@ -4,4 +4,5 @@ project(ACPCTeamzone)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(ACPCTeamzone
-        arena_exercises/greedy/ex1/serial.cpp)
+        arena_exercises/greedy/ex1/serial.cpp
+        arena_exercises/greedy/ex2/hassany.cpp)

@@ -1,8 +1,10 @@
+// problem: https://quera.org/problemset/10936
 #include <iostream>
 
 using namespace std;
 
 int main() {
+    // get inputs
     int n, k;
     cin >> n >> k;
     int a[n];
@@ -10,6 +12,7 @@ int main() {
         cin >> a[i];
     }
 
+    // find best number sequence
     int cs = 1, bs = 1;
     for (int i = 1; i < n; i++) {
         if (a[i] - 1 == a[i - 1]) cs++;
@@ -19,6 +22,7 @@ int main() {
         }
     }
 
+    // print answer
     std::cout << min(bs + k, n) << std::endl;
 
     return 0;

@@ -49,17 +49,17 @@ cmake_ninja_workdir = D$:/Programming$ Room/C++/ACPCTeamzone/cmake-build-debug/
 
 build cmake_object_order_depends_target_ACPCTeamzone: phony || .
 
-build CMakeFiles/ACPCTeamzone.dir/main.cpp.obj: CXX_COMPILER__ACPCTeamzone_unscanned_Debug D$:/Programming$ Room/C++/ACPCTeamzone/main.cpp || cmake_object_order_depends_target_ACPCTeamzone
-  DEP_FILE = CMakeFiles\ACPCTeamzone.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ACPCTeamzone.dir
-  OBJECT_FILE_DIR = CMakeFiles\ACPCTeamzone.dir
-
-build CMakeFiles/ACPCTeamzone.dir/arena_exercises/greedy/ex1/ex1.cpp.obj: CXX_COMPILER__ACPCTeamzone_unscanned_Debug D$:/Programming$ Room/C++/ACPCTeamzone/arena_exercises/greedy/ex1/ex1.cpp || cmake_object_order_depends_target_ACPCTeamzone
-  DEP_FILE = CMakeFiles\ACPCTeamzone.dir\arena_exercises\greedy\ex1\ex1.cpp.obj.d
+build CMakeFiles/ACPCTeamzone.dir/arena_exercises/greedy/ex1/serial.cpp.obj: CXX_COMPILER__ACPCTeamzone_unscanned_Debug D$:/Programming$ Room/C++/ACPCTeamzone/arena_exercises/greedy/ex1/serial.cpp || cmake_object_order_depends_target_ACPCTeamzone
+  DEP_FILE = CMakeFiles\ACPCTeamzone.dir\arena_exercises\greedy\ex1\serial.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ACPCTeamzone.dir
   OBJECT_FILE_DIR = CMakeFiles\ACPCTeamzone.dir\arena_exercises\greedy\ex1
+
+build CMakeFiles/ACPCTeamzone.dir/arena_exercises/greedy/ex2/hassany.cpp.obj: CXX_COMPILER__ACPCTeamzone_unscanned_Debug D$:/Programming$ Room/C++/ACPCTeamzone/arena_exercises/greedy/ex2/hassany.cpp || cmake_object_order_depends_target_ACPCTeamzone
+  DEP_FILE = CMakeFiles\ACPCTeamzone.dir\arena_exercises\greedy\ex2\hassany.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ACPCTeamzone.dir
+  OBJECT_FILE_DIR = CMakeFiles\ACPCTeamzone.dir\arena_exercises\greedy\ex2
 
 
 # =============================================================================
@@ -69,7 +69,7 @@ build CMakeFiles/ACPCTeamzone.dir/arena_exercises/greedy/ex1/ex1.cpp.obj: CXX_CO
 #############################################
 # Link the executable ACPCTeamzone.exe
 
-build ACPCTeamzone.exe: CXX_EXECUTABLE_LINKER__ACPCTeamzone_Debug CMakeFiles/ACPCTeamzone.dir/main.cpp.obj CMakeFiles/ACPCTeamzone.dir/arena_exercises/greedy/ex1/ex1.cpp.obj
+build ACPCTeamzone.exe: CXX_EXECUTABLE_LINKER__ACPCTeamzone_Debug CMakeFiles/ACPCTeamzone.dir/arena_exercises/greedy/ex1/serial.cpp.obj CMakeFiles/ACPCTeamzone.dir/arena_exercises/greedy/ex2/hassany.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ACPCTeamzone.dir
