@@ -1,0 +1,3 @@
+D:/Programming Room/C++/ACPCTeamzone/cmake-build-debug/CMakeFiles/ACPCTeamzone.dir
+D:/Programming Room/C++/ACPCTeamzone/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Programming Room/C++/ACPCTeamzone/cmake-build-debug/CMakeFiles/rebuild_cache.dir
