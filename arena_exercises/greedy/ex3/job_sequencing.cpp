@@ -1,6 +1,5 @@
 // problem: https://www.geeksforgeeks.org/dsa/job-sequencing-problem/
 #include <iostream>
-#include <vector>
 #include <algorithm>
 
 using namespace std;
