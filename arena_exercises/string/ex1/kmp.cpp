@@ -1,4 +1,4 @@
-// ref: https://www.geeksforgeeks.org/dsa/kmp-algorithm-for-pattern-searching/
+// problem: https://www.geeksforgeeks.org/dsa/kmp-algorithm-for-pattern-searching/
 #include <iostream>
 
 using namespace std;

@@ -7,4 +7,5 @@ add_executable(ACPCTeamzone
         arena_exercises/greedy/ex1/serial.cpp
         arena_exercises/greedy/ex2/hassany.cpp
         arena_exercises/greedy/ex3/job_sequencing.cpp
-        arena_exercises/string/kmp/kmp.cpp)
+        arena_exercises/string/ex1/kmp.cpp
+        arena_exercises/string/ex2/b_password.cpp)

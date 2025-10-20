@@ -67,11 +67,17 @@ build CMakeFiles/ACPCTeamzone.dir/arena_exercises/greedy/ex3/job_sequencing.cpp.
   OBJECT_DIR = CMakeFiles\ACPCTeamzone.dir
   OBJECT_FILE_DIR = CMakeFiles\ACPCTeamzone.dir\arena_exercises\greedy\ex3
 
-build CMakeFiles/ACPCTeamzone.dir/arena_exercises/string/kmp/kmp.cpp.obj: CXX_COMPILER__ACPCTeamzone_unscanned_Debug D$:/Programming$ Room/C++/ACPCTeamzone/arena_exercises/string/kmp/kmp.cpp || cmake_object_order_depends_target_ACPCTeamzone
-  DEP_FILE = CMakeFiles\ACPCTeamzone.dir\arena_exercises\string\kmp\kmp.cpp.obj.d
+build CMakeFiles/ACPCTeamzone.dir/arena_exercises/string/ex1/kmp.cpp.obj: CXX_COMPILER__ACPCTeamzone_unscanned_Debug D$:/Programming$ Room/C++/ACPCTeamzone/arena_exercises/string/ex1/kmp.cpp || cmake_object_order_depends_target_ACPCTeamzone
+  DEP_FILE = CMakeFiles\ACPCTeamzone.dir\arena_exercises\string\ex1\kmp.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ACPCTeamzone.dir
-  OBJECT_FILE_DIR = CMakeFiles\ACPCTeamzone.dir\arena_exercises\string\kmp
+  OBJECT_FILE_DIR = CMakeFiles\ACPCTeamzone.dir\arena_exercises\string\ex1
+
+build CMakeFiles/ACPCTeamzone.dir/arena_exercises/string/ex2/b_password.cpp.obj: CXX_COMPILER__ACPCTeamzone_unscanned_Debug D$:/Programming$ Room/C++/ACPCTeamzone/arena_exercises/string/ex2/b_password.cpp || cmake_object_order_depends_target_ACPCTeamzone
+  DEP_FILE = CMakeFiles\ACPCTeamzone.dir\arena_exercises\string\ex2\b_password.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ACPCTeamzone.dir
+  OBJECT_FILE_DIR = CMakeFiles\ACPCTeamzone.dir\arena_exercises\string\ex2
 
 
 # =============================================================================
@@ -81,7 +87,7 @@ build CMakeFiles/ACPCTeamzone.dir/arena_exercises/string/kmp/kmp.cpp.obj: CXX_CO
 #############################################
 # Link the executable ACPCTeamzone.exe
 
-build ACPCTeamzone.exe: CXX_EXECUTABLE_LINKER__ACPCTeamzone_Debug CMakeFiles/ACPCTeamzone.dir/arena_exercises/greedy/ex1/serial.cpp.obj CMakeFiles/ACPCTeamzone.dir/arena_exercises/greedy/ex2/hassany.cpp.obj CMakeFiles/ACPCTeamzone.dir/arena_exercises/greedy/ex3/job_sequencing.cpp.obj CMakeFiles/ACPCTeamzone.dir/arena_exercises/string/kmp/kmp.cpp.obj
+build ACPCTeamzone.exe: CXX_EXECUTABLE_LINKER__ACPCTeamzone_Debug CMakeFiles/ACPCTeamzone.dir/arena_exercises/greedy/ex1/serial.cpp.obj CMakeFiles/ACPCTeamzone.dir/arena_exercises/greedy/ex2/hassany.cpp.obj CMakeFiles/ACPCTeamzone.dir/arena_exercises/greedy/ex3/job_sequencing.cpp.obj CMakeFiles/ACPCTeamzone.dir/arena_exercises/string/ex1/kmp.cpp.obj CMakeFiles/ACPCTeamzone.dir/arena_exercises/string/ex2/b_password.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ACPCTeamzone.dir
