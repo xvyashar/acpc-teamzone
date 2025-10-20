@@ -31,12 +31,12 @@ int main() {
 
     int cLen = lps[n - 1];
     for (size_t i = 0; i < n - 1; i++) {
-        if (lps[i] == cLen) {
+        if (lps[i] == cLen) { // it means that the same pattern that is suffix-prefix is repeating somewhere in the middle
             cout << s.substr(0, lps[i]) << endl;
             return 0;
         }
 
-        if (i == n - 2 && cLen != 0) {
+        if (i == n - 2 && cLen != 0) { // look for shorter pattern
             cLen = lps[cLen - 1];
             if (cLen != 0) i = 0;
         }
